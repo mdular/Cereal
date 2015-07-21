@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CA0A0D1854EA210A3DF6175 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D40D2E368BBD27BF093FAAB4 /* libPods.a */; };
+		26EB820A47185C8B1056824D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6034FCA876774DB74D70535 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D1D9FDD11B5D87100059099C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D9FDD01B5D87100059099C /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,10 +25,10 @@
 
 /* Begin PBXFileReference section */
 		42EB7DCD263FEF3B19471601 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B6034FCA876774DB74D70535 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D9FDCD1B5D87100059099C /* Cereal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cereal; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D9FDD01B5D87100059099C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D1D9FDD71B5D886A0059099C /* Cereal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cereal-Bridging-Header.h"; sourceTree = "<group>"; };
-		D40D2E368BBD27BF093FAAB4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63B8C80B458C70320577688 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA0A0D1854EA210A3DF6175 /* libPods.a in Frameworks */,
+				26EB820A47185C8B1056824D /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		F0B09A04741ACF78FE396E96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D40D2E368BBD27BF093FAAB4 /* libPods.a */,
+				B6034FCA876774DB74D70535 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
